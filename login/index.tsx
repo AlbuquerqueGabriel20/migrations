@@ -4,7 +4,7 @@ import { ImputSenha } from "./ImputSenha";
 import { ImputUsuRio } from "./ImputUsuRio";
 import "./style.css";
 
-export const Login = () => {
+export const Login = (): JSX.Element => {
   return (
     <div className="login">
       <div className="div-2">
